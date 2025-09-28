@@ -11,11 +11,19 @@
     body { font-family: Arial, sans-serif; margin: 20px; background: #f7f7f7; }
     h2 { margin-bottom: 15px; }
     .filtros { margin-bottom: 20px; }
-    .filtros input, .filtros select, .filtros button {
-      margin-right: 10px; padding: 5px;
-    }
+    .filtros input, .filtros select, .filtros button { margin-right: 10px; padding: 5px; }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    #tabela { margin-top: 30px; background: #fff; }
+    #contador { margin-top: 10px; font-weight: bold; }
+    #tabela { margin-top: 10px; background: #fff; }
+
+    /* Destaque das linhas filtradas */
+    .linha-destaque {
+      background-color: #ffffcc !important;
+      transition: background-color 1.5s ease;
+    }
+    .linha-destaque.remover {
+      background-color: #fff !important;
+    }
   </style>
 </head>
 <body>
@@ -24,21 +32,21 @@
     <label>Ano:</label>
     <select id="ano">
       <option value="">Todos</option>
-      <option>2020</option><option>2021</option><option>2022</option>
-      <option>2023</option><option>2024</option><option>2025</option>
     </select>
     <label>Fornecedor:</label>
     <input type="text" id="fornecedor" placeholder="Digite parte do nome...">
-    <button onclick="atualizar()">Aplicar</button>
     <button onclick="resetar()">Limpar</button>
   </div>
+
   <div class="grid">
     <div id="graficoAno"></div>
     <div id="graficoMes"></div>
     <div id="graficoFornecedor"></div>
     <div id="graficoClassificacao"></div>
   </div>
-  <h3>📋 Tabela de Dados</h3>
+
+  <div id="contador">Linhas exibidas: 0</div>
+
   <table id="tabela" class="display" style="width:100%">
     <thead>
       <tr>
@@ -48,66 +56,124 @@
     </thead>
     <tbody id="dadosTabela"></tbody>
   </table>
+
   <script>
     let baseDados = [];
-    let tabela;
+    const mesesOrdem = [
+      "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+      "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+    ];
+    let tabelaDataTable;
+
     async function carregarDados() {
       const res = await fetch("dados.json");
       baseDados = await res.json();
-      gerarGraficos(baseDados);
-      preencherTabela(baseDados);
+      popularSelectAno();
+      atualizar();
+
+      document.getElementById("ano").addEventListener("change", atualizar);
+      document.getElementById("fornecedor").addEventListener("input", atualizar);
     }
+
+    function popularSelectAno() {
+      const select = document.getElementById("ano");
+      const anos = [...new Set(baseDados.map(d => d.ano))].sort((a,b) => a - b);
+      anos.forEach(ano => {
+        const option = document.createElement("option");
+        option.value = ano;
+        option.textContent = ano;
+        select.appendChild(option);
+      });
+    }
+
     function atualizar() {
       const anoFiltro = document.getElementById("ano").value;
       const fornecedorFiltro = document.getElementById("fornecedor").value.toLowerCase();
+
+      // Filtra a base de dados conforme seleção
       const filtrados = baseDados.filter(d =>
-        (!anoFiltro || d.ano == anoFiltro) &&
+        (!anoFiltro || d.ano.toString() === anoFiltro) &&
         (!fornecedorFiltro || d.fornecedor.toLowerCase().includes(fornecedorFiltro))
       );
+
       gerarGraficos(filtrados);
-      preencherTabela(filtrados);
+      preencherTabela(filtrados, anoFiltro, fornecedorFiltro);
+      animarDestaque();
+      atualizarContador(filtrados.length);
     }
+
     function resetar() {
       document.getElementById("ano").value = "";
       document.getElementById("fornecedor").value = "";
-      gerarGraficos(baseDados);
-      preencherTabela(baseDados);
+      atualizar();
     }
+
     function gerarGraficos(dados) {
       const porAno = agrupar(dados, "ano");
-      Plotly.newPlot("graficoAno", [{ x:Object.keys(porAno), y:Object.values(porAno), type:"bar" }], { title:"Distribuição por Ano" });
+      const anos = Object.keys(porAno).sort((a,b) => a - b);
+      const valoresAno = anos.map(a => porAno[a]);
+      Plotly.newPlot("graficoAno", [{ x: anos, y: valoresAno, type:"bar" }], { title:"Distribuição por Ano" });
+
       const porMes = agrupar(dados, "mes");
-      Plotly.newPlot("graficoMes", [{ x:Object.keys(porMes), y:Object.values(porMes), type:"bar" }], { title:"Distribuição por Mês" });
+      const meses = mesesOrdem.filter(m => porMes[m] !== undefined);
+      const valoresMes = meses.map(m => porMes[m]);
+      Plotly.newPlot("graficoMes", [{ x: meses, y: valoresMes, type:"bar" }], { title:"Distribuição por Mês" });
+
       const porFornecedor = agrupar(dados, "fornecedor");
       const fornecedores = Object.entries(porFornecedor).sort((a,b)=>b[1]-a[1]).slice(0,10);
       Plotly.newPlot("graficoFornecedor", [{ x:fornecedores.map(f=>f[0]), y:fornecedores.map(f=>f[1]), type:"bar" }], { title:"Top Fornecedores" });
+
       const porClass = agrupar(dados, "classificacao");
       Plotly.newPlot("graficoClassificacao", [{ labels:Object.keys(porClass), values:Object.values(porClass), type:"pie" }], { title:"Classificação" });
     }
-    function preencherTabela(dados) {
+
+    function preencherTabela(dados, anoFiltro, fornecedorFiltro) {
       const corpo = document.getElementById("dadosTabela");
-      corpo.innerHTML = dados.map(d => `
-        <tr>
-          <td>${d.ano}</td><td>${d.mes}</td><td>${d.fornecedor}</td>
-          <td>${d.classificacao}</td><td>${d.objeto}</td><td>${d.defeito}</td>
-        </tr>
-      `).join("");
+      corpo.innerHTML = dados.map(d => {
+        const destaque = "linha-destaque";
+        return `
+          <tr class="${destaque}">
+            <td>${d.ano}</td><td>${d.mes}</td><td>${d.fornecedor}</td>
+            <td>${d.classificacao}</td><td>${d.objeto}</td><td>${d.defeito}</td>
+          </tr>
+        `;
+      }).join("");
+
       if ($.fn.DataTable.isDataTable('#tabela')) {
-        $('#tabela').DataTable().clear().destroy();
+        tabelaDataTable.clear().destroy();
       }
-      $('#tabela').DataTable({
+
+      $.fn.dataTable.ext.order['mes-ordem'] = function(settings, col) {
+        return this.api().column(col, {order:'index'}).nodes().map(td => mesesOrdem.indexOf($(td).text()));
+      };
+
+      tabelaDataTable = $('#tabela').DataTable({
         pageLength: 10,
-        language: {
-          url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json"
-        }
+        columnDefs: [
+          { targets: 0, type: 'num' },
+          { targets: 1, orderDataType: 'mes-ordem' }
+        ],
+        language: { url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json" },
+        order: [[0,'asc'], [1,'asc']]
       });
     }
+
+    function animarDestaque() {
+      $('.linha-destaque').removeClass('remover');
+      setTimeout(() => { $('.linha-destaque').addClass('remover'); }, 500);
+    }
+
+    function atualizarContador(qtd) {
+      document.getElementById("contador").textContent = `Linhas exibidas: ${qtd}`;
+    }
+
     function agrupar(dados, campo) {
       return dados.reduce((acc, d) => {
         acc[d[campo]] = (acc[d[campo]] || 0) + 1;
         return acc;
       }, {});
     }
+
     carregarDados();
   </script>
 </body>
