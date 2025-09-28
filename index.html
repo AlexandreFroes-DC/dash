@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard ASPAD/MJSP</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f7f7f7; }
+    h2 { margin-bottom: 15px; }
+    .filtros { margin-bottom: 20px; }
+    .filtros input, .filtros select, .filtros button {
+      margin-right: 10px; padding: 5px;
+    }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    #tabela { margin-top: 30px; background: #fff; }
+  </style>
+</head>
+<body>
+  <h2>📊 Dashboard ASPAD/MJSP</h2>
+  <div class="filtros">
+    <label>Ano:</label>
+    <select id="ano">
+      <option value="">Todos</option>
+      <option>2020</option><option>2021</option><option>2022</option>
+      <option>2023</option><option>2024</option><option>2025</option>
+    </select>
+    <label>Fornecedor:</label>
+    <input type="text" id="fornecedor" placeholder="Digite parte do nome...">
+    <button onclick="atualizar()">Aplicar</button>
+    <button onclick="resetar()">Limpar</button>
+  </div>
+  <div class="grid">
+    <div id="graficoAno"></div>
+    <div id="graficoMes"></div>
+    <div id="graficoFornecedor"></div>
+    <div id="graficoClassificacao"></div>
+  </div>
+  <h3>📋 Tabela de Dados</h3>
+  <table id="tabela" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>Ano</th><th>Mês</th><th>Fornecedor</th>
+        <th>Classificação</th><th>Objeto</th><th>Defeito</th>
+      </tr>
+    </thead>
+    <tbody id="dadosTabela"></tbody>
+  </table>
+  <script>
+    let baseDados = [];
+    let tabela;
+    async function carregarDados() {
+      const res = await fetch("dados.json");
+      baseDados = await res.json();
+      gerarGraficos(baseDados);
+      preencherTabela(baseDados);
+    }
+    function atualizar() {
+      const anoFiltro = document.getElementById("ano").value;
+      const fornecedorFiltro = document.getElementById("fornecedor").value.toLowerCase();
+      const filtrados = baseDados.filter(d =>
+        (!anoFiltro || d.ano == anoFiltro) &&
+        (!fornecedorFiltro || d.fornecedor.toLowerCase().includes(fornecedorFiltro))
+      );
+      gerarGraficos(filtrados);
+      preencherTabela(filtrados);
+    }
+    function resetar() {
+      document.getElementById("ano").value = "";
+      document.getElementById("fornecedor").value = "";
+      gerarGraficos(baseDados);
+      preencherTabela(baseDados);
+    }
+    function gerarGraficos(dados) {
+      const porAno = agrupar(dados, "ano");
+      Plotly.newPlot("graficoAno", [{ x:Object.keys(porAno), y:Object.values(porAno), type:"bar" }], { title:"Distribuição por Ano" });
+      const porMes = agrupar(dados, "mes");
+      Plotly.newPlot("graficoMes", [{ x:Object.keys(porMes), y:Object.values(porMes), type:"bar" }], { title:"Distribuição por Mês" });
+      const porFornecedor = agrupar(dados, "fornecedor");
+      const fornecedores = Object.entries(porFornecedor).sort((a,b)=>b[1]-a[1]).slice(0,10);
+      Plotly.newPlot("graficoFornecedor", [{ x:fornecedores.map(f=>f[0]), y:fornecedores.map(f=>f[1]), type:"bar" }], { title:"Top Fornecedores" });
+      const porClass = agrupar(dados, "classificacao");
+      Plotly.newPlot("graficoClassificacao", [{ labels:Object.keys(porClass), values:Object.values(porClass), type:"pie" }], { title:"Classificação" });
+    }
+    function preencherTabela(dados) {
+      const corpo = document.getElementById("dadosTabela");
+      corpo.innerHTML = dados.map(d => `
+        <tr>
+          <td>${d.ano}</td><td>${d.mes}</td><td>${d.fornecedor}</td>
+          <td>${d.classificacao}</td><td>${d.objeto}</td><td>${d.defeito}</td>
+        </tr>
+      `).join("");
+      if ($.fn.DataTable.isDataTable('#tabela')) {
+        $('#tabela').DataTable().clear().destroy();
+      }
+      $('#tabela').DataTable({
+        pageLength: 10,
+        language: {
+          url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json"
+        }
+      });
+    }
+    function agrupar(dados, campo) {
+      return dados.reduce((acc, d) => {
+        acc[d[campo]] = (acc[d[campo]] || 0) + 1;
+        return acc;
+      }, {});
+    }
+    carregarDados();
+  </script>
+</body>
+</html>

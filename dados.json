@@ -1,0 +1,8002 @@
+[
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "BMW",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Honda",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Julho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Peugeot",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "Fiat",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Pfizer",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Pfizer",
+    "classificacao": "Acessórios",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Acessórios",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "BMW",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Novartis",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "BMW",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "Novartis",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Novartis",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Novartis",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Hyundai",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "BMW",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "BMW",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Novartis",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "BMW",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Fiat",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Novartis",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "BMW",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "BMW",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Fiat",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "BMW",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Fiat",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "BMW",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Honda",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Honda",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Novartis",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Porsche",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Motor",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Julho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Novartis",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Junho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Julho",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Porsche",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Fevereiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Fevereiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Novartis",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Setembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Porsche",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2023,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Motocicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Julho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Fevereiro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Peugeot",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Julho",
+    "fornecedor": "Fiat",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Veículos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Peugeot",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Ford",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Abril",
+    "fornecedor": "BMW",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Novartis",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Fiat",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Novartis",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Remédio XYZ",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Bicicletas",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Novartis",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Outubro",
+    "fornecedor": "Fiat",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "BMW",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Fiat",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Motor",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Mercedes",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Agosto",
+    "fornecedor": "Pfizer",
+    "classificacao": "Bicicletas",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Dezembro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Março",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Novembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2023,
+    "mes": "Novembro",
+    "fornecedor": "Hyundai",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Medicamentos",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Maio",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Pfizer",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Dezembro",
+    "fornecedor": "BMW",
+    "classificacao": "Alimentos",
+    "objeto": "Remédio XYZ",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Roche",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Dezembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Peugeot",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Setembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "BMW",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Novartis",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2021,
+    "mes": "Outubro",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Medicamentos",
+    "objeto": "Capa protetora",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Veículos",
+    "objeto": "Freio ABS",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Capa protetora",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Fiat",
+    "classificacao": "Medicamentos",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Capa protetora",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Setembro",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Novembro",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2024,
+    "mes": "Junho",
+    "fornecedor": "Renault",
+    "classificacao": "Medicamentos",
+    "objeto": "Freio ABS",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2020,
+    "mes": "Julho",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Setembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote A",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Março",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Janeiro",
+    "fornecedor": "Roche",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Renault",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Agosto",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Bicicleta modelo Y",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2023,
+    "mes": "Outubro",
+    "fornecedor": "BMW",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Renault",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2021,
+    "mes": "Dezembro",
+    "fornecedor": "Toyota",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote B",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Mercedes",
+    "classificacao": "Veículos",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "Pfizer",
+    "classificacao": "Motocicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2021,
+    "mes": "Fevereiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2024,
+    "mes": "Novembro",
+    "fornecedor": "Novartis",
+    "classificacao": "Acessórios",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Junho",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Maio",
+    "fornecedor": "Honda",
+    "classificacao": "Motocicletas",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2023,
+    "mes": "Maio",
+    "fornecedor": "Porsche",
+    "classificacao": "Alimentos",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Julho",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Vacina Lote A",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2020,
+    "mes": "Junho",
+    "fornecedor": "Ford",
+    "classificacao": "Veículos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2022,
+    "mes": "Abril",
+    "fornecedor": "Mercedes",
+    "classificacao": "Bicicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Outubro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2021,
+    "mes": "Julho",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Ford",
+    "classificacao": "Acessórios",
+    "objeto": "Cinto de segurança",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2024,
+    "mes": "Agosto",
+    "fornecedor": "Pfizer",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Superaquecimento"
+  },
+  {
+    "ano": 2020,
+    "mes": "Maio",
+    "fornecedor": "Honda",
+    "classificacao": "Veículos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Medicamentos",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Abril",
+    "fornecedor": "Hyundai",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Setembro",
+    "fornecedor": "BMW",
+    "classificacao": "Medicamentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Janeiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Bicicletas",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Maio",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Março",
+    "fornecedor": "Mercedes",
+    "classificacao": "Alimentos",
+    "objeto": "Vacina Lote A",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Janeiro",
+    "fornecedor": "Novartis",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Fiat",
+    "classificacao": "Motocicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2025,
+    "mes": "Agosto",
+    "fornecedor": "Porsche",
+    "classificacao": "Acessórios",
+    "objeto": "Freio ABS",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2023,
+    "mes": "Julho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Junho",
+    "fornecedor": "Volkswagen",
+    "classificacao": "Alimentos",
+    "objeto": "Suplemento alimentar",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Fevereiro",
+    "fornecedor": "Chevrolet",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2020,
+    "mes": "Abril",
+    "fornecedor": "Ford",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Falha no sistema"
+  },
+  {
+    "ano": 2024,
+    "mes": "Março",
+    "fornecedor": "Hyundai",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Agosto",
+    "fornecedor": "Toyota",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2023,
+    "mes": "Junho",
+    "fornecedor": "Honda",
+    "classificacao": "Bicicletas",
+    "objeto": "Capa protetora",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Fevereiro",
+    "fornecedor": "Honda",
+    "classificacao": "Medicamentos",
+    "objeto": "Motor",
+    "defeito": "Risco de incêndio"
+  },
+  {
+    "ano": 2024,
+    "mes": "Maio",
+    "fornecedor": "Renault",
+    "classificacao": "Motocicletas",
+    "objeto": "Remédio XYZ",
+    "defeito": "Rotulagem incorreta"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Bicicletas",
+    "objeto": "Freio ABS",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2023,
+    "mes": "Dezembro",
+    "fornecedor": "Honda",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2024,
+    "mes": "Outubro",
+    "fornecedor": "Honda",
+    "classificacao": "Acessórios",
+    "objeto": "Airbag",
+    "defeito": "Não dispara corretamente"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Roche",
+    "classificacao": "Medicamentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2025,
+    "mes": "Novembro",
+    "fornecedor": "Porsche",
+    "classificacao": "Veículos",
+    "objeto": "Painel",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2023,
+    "mes": "Janeiro",
+    "fornecedor": "Renault",
+    "classificacao": "Veículos",
+    "objeto": "Motor",
+    "defeito": "Partes soltas"
+  },
+  {
+    "ano": 2025,
+    "mes": "Abril",
+    "fornecedor": "Toyota",
+    "classificacao": "Acessórios",
+    "objeto": "Vacina Lote B",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2022,
+    "mes": "Agosto",
+    "fornecedor": "Fiat",
+    "classificacao": "Alimentos",
+    "objeto": "Airbag",
+    "defeito": "Falha elétrica"
+  },
+  {
+    "ano": 2020,
+    "mes": "Setembro",
+    "fornecedor": "Peugeot",
+    "classificacao": "Motocicletas",
+    "objeto": "Motor",
+    "defeito": "Quebra inesperada"
+  },
+  {
+    "ano": 2021,
+    "mes": "Janeiro",
+    "fornecedor": "Toyota",
+    "classificacao": "Alimentos",
+    "objeto": "Cinto de segurança",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Janeiro",
+    "fornecedor": "Roche",
+    "classificacao": "Bicicletas",
+    "objeto": "Painel",
+    "defeito": "Reação adversa"
+  },
+  {
+    "ano": 2022,
+    "mes": "Outubro",
+    "fornecedor": "AstraZeneca",
+    "classificacao": "Acessórios",
+    "objeto": "Painel",
+    "defeito": "Vazamento"
+  },
+  {
+    "ano": 2022,
+    "mes": "Novembro",
+    "fornecedor": "BMW",
+    "classificacao": "Motocicletas",
+    "objeto": "Airbag",
+    "defeito": "Quebra inesperada"
+  }
+]
