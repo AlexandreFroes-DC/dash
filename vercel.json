@@ -6,7 +6,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "dados.json",
+      "src": "campanhas_recall.json",
       "use": "@vercel/static"
     }
   ]
