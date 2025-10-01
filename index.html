@@ -1,180 +1,321 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Dashboard ASPAD/MJSP</title>
+
+  <!-- Plotly -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f7f7f7; }
-    h2 { margin-bottom: 15px; }
-    .filtros { margin-bottom: 20px; }
-    .filtros input, .filtros select, .filtros button { margin-right: 10px; padding: 5px; }
-    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    #contador { margin-top: 10px; font-weight: bold; }
-    #tabela { margin-top: 10px; background: #fff; }
 
-    /* Destaque das linhas filtradas */
-    .linha-destaque {
-      background-color: #ffffcc !important;
-      transition: background-color 1.5s ease;
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 18px;
+      background: #f7f7f7;
+      color: #222;
     }
-    .linha-destaque.remover {
-      background-color: #fff !important;
+    h2 { margin-bottom: 12px; }
+    .filtros { margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items:center; }
+    .filtros label { font-weight:600; margin-right:4px; }
+    .filtros select, .filtros button { padding:6px 10px; border-radius:6px; border:1px solid #cfcfcf; }
+    .filtros button { background:#007BFF; color:#fff; cursor:pointer; border:none; }
+    .filtros button:hover { background:#0056b3; }
+
+    .acoes { margin: 12px 0; display:flex; gap:8px; align-items:center; }
+    .acoes select, .acoes button { padding:6px 10px; border-radius:6px; border:1px solid #cfcfcf; }
+    .acoes button { background:#28a745; color:#fff; cursor:pointer; border:none; }
+    .acoes button:hover { background:#1e7e34; }
+
+    .grid { display:grid; grid-template-columns: 1fr 1fr; gap:18px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+
+    #tabela { margin-top: 16px; background: #fff; border-radius:6px; padding:8px; }
+    #contador { margin-top: 8px; font-weight:600; }
+
+    /* Impressão: mostrar APENAS os gráficos, ajustar A4 landscape */
+    @page { size: A4 landscape; margin: 10mm; }
+    @media print {
+      body * { visibility: hidden; }
+      #graficos, #graficos * { visibility: visible; }
+      #graficos { position: absolute; left: 0; top: 0; width: 100%; }
     }
   </style>
 </head>
 <body>
-  <h2>📊 Dashboard ASPAD/MJSP</h2>
-  <div class="filtros">
-    <label>Ano:</label>
-    <select id="ano">
-      <option value="">Todos</option>
+  <h2>📊 Dashboard ASPAD / MJSP</h2>
+
+  <!-- filtros -->
+  <div class="filtros" id="filtros-area">
+    <label for="ano">Ano:</label>
+    <select id="ano"><option value="">Todos</option></select>
+
+    <label for="fornecedor">Fornecedor:</label>
+    <select id="fornecedor"><option value="">Todos</option></select>
+
+    <label for="pais">País:</label>
+    <select id="pais"><option value="">Todos</option></select>
+
+    <button id="btnLimpar">Limpar</button>
+  </div>
+
+  <!-- ações de salvar/imprimir -->
+  <div class="acoes">
+    <label for="formato">Salvar como:</label>
+    <select id="formato">
+      <option value="png">PNG</option>
+      <option value="jpeg">JPEG</option>
+      <option value="svg">SVG</option>
+      <option value="pdf">PDF</option>
     </select>
-    <label>Fornecedor:</label>
-    <input type="text" id="fornecedor" placeholder="Digite parte do nome...">
-    <button onclick="resetar()">Limpar</button>
+    <button id="btnSalvar">💾 Salvar Gráficos</button>
+    <button id="btnImprimir">🖨️ Imprimir Gráficos</button>
   </div>
 
-  <div class="grid">
-    <div id="graficoAno"></div>
-    <div id="graficoMes"></div>
-    <div id="graficoFornecedor"></div>
-    <div id="graficoClassificacao"></div>
+  <!-- área dos gráficos -->
+  <div id="graficos" class="grid" style="align-items:start;">
+    <div id="graficoPais" style="min-height:300px;"></div>
+    <div id="graficoMes" style="min-height:300px;"></div>
+    <div id="graficoFornecedor" style="min-height:300px;"></div>
+    <div id="graficoRisco" style="min-height:300px;"></div>
   </div>
 
-  <div id="contador">Linhas exibidas: 0</div>
-
-  <table id="tabela" class="display" style="width:100%">
-    <thead>
-      <tr>
-        <th>Ano</th><th>Mês</th><th>Fornecedor</th>
-        <th>Classificação</th><th>Objeto</th><th>Defeito</th>
-      </tr>
-    </thead>
-    <tbody id="dadosTabela"></tbody>
-  </table>
+  <!-- tabela -->
+  <h3 style="margin-top:18px">📋 Tabela Recall</h3>
+  <div id="contador"></div>
+  <div id="tabela">
+    <table id="tblRecall" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Data Início</th><th>Data Fim</th><th>Título</th><th>Fornecedor</th>
+          <th>Risco</th><th>País</th><th>Produto</th><th>Total Afetado</th><th>Total Atendido</th><th>% Atendido</th>
+        </tr>
+      </thead>
+      <tbody id="dadosTabela"></tbody>
+    </table>
+  </div>
 
   <script>
+  (function(){
     let baseDados = [];
-    const mesesOrdem = [
-      "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-      "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
-    ];
-    let tabelaDataTable;
+    const mesesOrdem = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+
+    const selAno = document.getElementById('ano');
+    const selFornecedor = document.getElementById('fornecedor');
+    const selPais = document.getElementById('pais');
+    const btnLimpar = document.getElementById('btnLimpar');
+    const btnSalvar = document.getElementById('btnSalvar');
+    const btnImprimir = document.getElementById('btnImprimir');
+    const selFormato = document.getElementById('formato');
 
     async function carregarDados() {
-      const res = await fetch("dados.json");
-      baseDados = await res.json();
-      popularSelectAno();
-      atualizar();
+      try {
+        const res = await fetch('campanhas_recall.json');
+        const json = await res.json();
 
-      document.getElementById("ano").addEventListener("change", atualizar);
-      document.getElementById("fornecedor").addEventListener("input", atualizar);
+        const tableNode = json.find(e => e.type === 'table');
+        if(!tableNode || !Array.isArray(tableNode.data)) throw new Error('Formato JSON inesperado');
+
+        baseDados = tableNode.data.map(d => {
+          const dataIni = d.data_inicio ? new Date(d.data_inicio) : null;
+          const afetado = Number(d.total_afetado) || 0;
+          const atendido = Number(d.total_atendido) || 0;
+          return {
+            id: d.id,
+            data_inicio: d.data_inicio || '',
+            data_fim_campanha: d.data_fim_campanha || '',
+            titulo: d.titulo || '',
+            fornecedor: d.fornecedor || '',
+            tipo_risco: d.tipo_risco || '',
+            pais_origem: d.pais_origem || '',
+            produto: d.produto || '',
+            total_afetado: afetado,
+            total_atendido: atendido,
+            perc_atendido: afetado > 0 ? ((atendido/afetado)*100).toFixed(1) : '0',
+            ano: dataIni ? dataIni.getFullYear() : '',
+            mes: dataIni ? mesesOrdem[dataIni.getMonth()] : ''
+          };
+        });
+
+        preencherFiltros();
+        ligarEventosAutoUpdate();
+        atualizarVisualizacoes(baseDados);
+      } catch(err) {
+        console.error('Erro ao carregar dados:', err);
+        alert('Erro ao carregar dados. Veja o console para detalhes.');
+      }
     }
 
-    function popularSelectAno() {
-      const select = document.getElementById("ano");
-      const anos = [...new Set(baseDados.map(d => d.ano))].sort((a,b) => a - b);
-      anos.forEach(ano => {
-        const option = document.createElement("option");
-        option.value = ano;
-        option.textContent = ano;
-        select.appendChild(option);
-      });
+    function preencherFiltros() {
+      const anos = [...new Set(baseDados.map(d => d.ano).filter(Boolean))].sort((a,b)=>a-b);
+      const fornecedores = [...new Set(baseDados.map(d => d.fornecedor).filter(Boolean))].sort();
+      const paises = [...new Set(baseDados.map(d => d.pais_origem).filter(Boolean))].sort();
+
+      anos.forEach(a => { const o=document.createElement('option'); o.value=a; o.textContent=a; selAno.appendChild(o);});
+      fornecedores.forEach(f => { const o=document.createElement('option'); o.value=f; o.textContent=f; selFornecedor.appendChild(o);});
+      paises.forEach(p => { const o=document.createElement('option'); o.value=p; o.textContent=p; selPais.appendChild(o);});
     }
 
-    function atualizar() {
-      const anoFiltro = document.getElementById("ano").value;
-      const fornecedorFiltro = document.getElementById("fornecedor").value.toLowerCase();
+    function obterFiltrados() {
+      const anoFiltro = selAno.value;
+      const fornecedorFiltro = selFornecedor.value;
+      const paisFiltro = selPais.value;
 
-      // Filtra a base de dados conforme seleção
-      const filtrados = baseDados.filter(d =>
-        (!anoFiltro || d.ano.toString() === anoFiltro) &&
-        (!fornecedorFiltro || d.fornecedor.toLowerCase().includes(fornecedorFiltro))
+      return baseDados.filter(d =>
+        (!anoFiltro || String(d.ano) === String(anoFiltro)) &&
+        (!fornecedorFiltro || d.fornecedor === fornecedorFiltro) &&
+        (!paisFiltro || d.pais_origem === paisFiltro)
       );
-
-      gerarGraficos(filtrados);
-      preencherTabela(filtrados, anoFiltro, fornecedorFiltro);
-      animarDestaque();
-      atualizarContador(filtrados.length);
     }
 
-    function resetar() {
-      document.getElementById("ano").value = "";
-      document.getElementById("fornecedor").value = "";
-      atualizar();
+    function atualizarVisualizacoes(dados) {
+      gerarGraficos(dados);
+      preencherTabela(dados);
     }
 
     function gerarGraficos(dados) {
-      const porAno = agrupar(dados, "ano");
-      const anos = Object.keys(porAno).sort((a,b) => a - b);
-      const valoresAno = anos.map(a => porAno[a]);
-      Plotly.newPlot("graficoAno", [{ x: anos, y: valoresAno, type:"bar" }], { title:"Distribuição por Ano" });
+      const config = {responsive:true};
 
-      const porMes = agrupar(dados, "mes");
-      const meses = mesesOrdem.filter(m => porMes[m] !== undefined);
-      const valoresMes = meses.map(m => porMes[m]);
-      Plotly.newPlot("graficoMes", [{ x: meses, y: valoresMes, type:"bar" }], { title:"Distribuição por Mês" });
+      const porPais = agrupar(dados, 'pais_origem');
+      Plotly.newPlot('graficoPais', [{ x:Object.keys(porPais), y:Object.values(porPais), type:'bar', marker:{color:'#4c78a8'} }], {title:'Distribuição por País', margin:{t:40}}, config);
 
-      const porFornecedor = agrupar(dados, "fornecedor");
-      const fornecedores = Object.entries(porFornecedor).sort((a,b)=>b[1]-a[1]).slice(0,10);
-      Plotly.newPlot("graficoFornecedor", [{ x:fornecedores.map(f=>f[0]), y:fornecedores.map(f=>f[1]), type:"bar" }], { title:"Top Fornecedores" });
+      const porMes = agrupar(dados, 'mes');
+      const meses = mesesOrdem.filter(m=>porMes[m]!==undefined);
+      const valsMes = meses.map(m=>porMes[m]);
+      Plotly.newPlot('graficoMes', [{ x:meses, y:valsMes, type:'bar', marker:{color:'#f58518'} }], {title:'Distribuição por Mês', margin:{t:40}}, config);
 
-      const porClass = agrupar(dados, "classificacao");
-      Plotly.newPlot("graficoClassificacao", [{ labels:Object.keys(porClass), values:Object.values(porClass), type:"pie" }], { title:"Classificação" });
+      const porFornecedor = agrupar(dados, 'fornecedor');
+      const listFor = Object.entries(porFornecedor).sort((a,b)=>b[1]-a[1]).slice(0,10);
+      Plotly.newPlot('graficoFornecedor', [{ x:listFor.map(x=>x[0]), y:listFor.map(x=>x[1]), type:'bar', marker:{color:'#54a24b'} }], {title:'Top Fornecedores (top 10)', margin:{t:40,b:120}}, config);
+
+      const porRisco = agrupar(dados, 'tipo_risco');
+      Plotly.newPlot('graficoRisco', [{ labels:Object.keys(porRisco), values:Object.values(porRisco), type:'pie' }], {title:'Classificação de Risco', margin:{t:40}}, config);
     }
 
-    function preencherTabela(dados, anoFiltro, fornecedorFiltro) {
-      const corpo = document.getElementById("dadosTabela");
-      corpo.innerHTML = dados.map(d => {
-        const destaque = "linha-destaque";
-        return `
-          <tr class="${destaque}">
-            <td>${d.ano}</td><td>${d.mes}</td><td>${d.fornecedor}</td>
-            <td>${d.classificacao}</td><td>${d.objeto}</td><td>${d.defeito}</td>
-          </tr>
-        `;
-      }).join("");
+    function preencherTabela(dados) {
+      const tbody = document.getElementById('dadosTabela');
+      tbody.innerHTML = dados.map(d => `
+        <tr>
+          <td>${d.data_inicio}</td>
+          <td>${d.data_fim_campanha||''}</td>
+          <td>${escapeHtml(d.titulo)}</td>
+          <td>${escapeHtml(d.fornecedor)}</td>
+          <td>${escapeHtml(d.tipo_risco)}</td>
+          <td>${escapeHtml(d.pais_origem)}</td>
+          <td>${escapeHtml(d.produto)}</td>
+          <td>${d.total_afetado.toLocaleString('pt-BR')}</td>
+          <td>${d.total_atendido.toLocaleString('pt-BR')}</td>
+          <td>${d.perc_atendido}%</td>
+        </tr>
+      `).join('');
 
-      if ($.fn.DataTable.isDataTable('#tabela')) {
-        tabelaDataTable.clear().destroy();
+      document.getElementById('contador').innerText = `Total de registros: ${dados.length}`;
+
+      if ($.fn.DataTable.isDataTable('#tblRecall')) {
+        $('#tblRecall').DataTable().clear().destroy();
       }
-
-      $.fn.dataTable.ext.order['mes-ordem'] = function(settings, col) {
-        return this.api().column(col, {order:'index'}).nodes().map(td => mesesOrdem.indexOf($(td).text()));
-      };
-
-      tabelaDataTable = $('#tabela').DataTable({
+      $('#tblRecall').DataTable({
         pageLength: 10,
-        columnDefs: [
-          { targets: 0, type: 'num' },
-          { targets: 1, orderDataType: 'mes-ordem' }
-        ],
-        language: { url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json" },
-        order: [[0,'asc'], [1,'asc']]
+        responsive: true,
+        order: [[0,'asc']],
+        language: { url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json" }
       });
     }
 
-    function animarDestaque() {
-      $('.linha-destaque').removeClass('remover');
-      setTimeout(() => { $('.linha-destaque').addClass('remover'); }, 500);
-    }
-
-    function atualizarContador(qtd) {
-      document.getElementById("contador").textContent = `Linhas exibidas: ${qtd}`;
-    }
-
     function agrupar(dados, campo) {
-      return dados.reduce((acc, d) => {
-        acc[d[campo]] = (acc[d[campo]] || 0) + 1;
+      return dados.reduce((acc,d)=>{
+        const chave = d[campo]||'(Sem valor)';
+        acc[chave] = (acc[chave]||0)+1;
         return acc;
       }, {});
     }
 
+    function escapeHtml(text) {
+      if(!text && text!==0) return '';
+      return String(text).replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    }
+
+    async function salvarGraficos() {
+      const formato = selFormato.value || 'png';
+      const graficos = ['graficoPais','graficoMes','graficoFornecedor','graficoRisco'];
+
+      try {
+        if(formato==='pdf'){
+          const pngPromises = graficos.map(id => Plotly.toImage(document.getElementById(id), {format:'png', width:900, height:600}));
+          const pngDataUrls = await Promise.all(pngPromises);
+
+          const { jsPDF } = window.jspdf;
+          const doc = new jsPDF({ orientation:'landscape', unit:'mm', format:'a4' });
+          const pdfW = doc.internal.pageSize.getWidth();
+          const pdfH = doc.internal.pageSize.getHeight();
+
+          pngDataUrls.forEach((dataUrl, idx)=>{
+            doc.addImage(dataUrl,'PNG',0,0,pdfW,pdfH);
+            if(idx < pngDataUrls.length-1) doc.addPage();
+          });
+
+          const nome = `graficos_recall_${new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')}.pdf`;
+          doc.save(nome);
+        } else {
+          for(const id of graficos){
+            const dataUrl = await Plotly.toImage(document.getElementById(id), {format:formato, width:900, height:600});
+            const ext = formato==='jpeg'?'jpg':formato;
+            const nome = `${id}_${new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')}.${ext}`;
+            downloadDataUrl(dataUrl,nome);
+            await new Promise(r=>setTimeout(r,200));
+          }
+        }
+      } catch(err){
+        console.error('Erro ao salvar gráficos:',err);
+        alert('Erro ao salvar gráficos. Veja console para detalhes.');
+      }
+    }
+
+    function downloadDataUrl(dataUrl,filename){
+      const a = document.createElement('a');
+      a.href = dataUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
+
+    function imprimirGraficos(){
+      window.print();
+    }
+
+    function ligarEventosAutoUpdate(){
+      [selAno,selFornecedor,selPais].forEach(el=>{
+        el.addEventListener('change', ()=>{
+          const filtrados = obterFiltrados();
+          atualizarVisualizacoes(filtrados);
+        });
+      });
+
+      btnLimpar.addEventListener('click', ()=>{
+        selAno.value='';
+        selFornecedor.value='';
+        selPais.value='';
+        atualizarVisualizacoes(baseDados);
+      });
+
+      btnSalvar.addEventListener('click', salvarGraficos);
+      btnImprimir.addEventListener('click', imprimirGraficos);
+    }
+
     carregarDados();
+
+    window.salvarGraficos = salvarGraficos;
+    window.imprimirGraficos = imprimirGraficos;
+
+  })();
   </script>
 </body>
 </html>
