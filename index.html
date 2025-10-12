@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8" />
-<title>Dashboard ASPAD / MJSP</title>
+<title>Dashboard ASPAD / MJSP - Executivo Premium</title>
 
 <!-- Plotly -->
 <script src="https://cdn.plot.ly/plotly-2.29.0.min.js"></script>
@@ -284,14 +284,33 @@ async function gerarAnaliseIA(dados){
   const containerIA = document.getElementById('analise-ia');
   containerIA.innerHTML = '<em>🧠 Gerando resumo inteligente...<span class="loader"></span></em>';
 
-  const fornecedoresMais = Object.entries(agruparPorCampo(dados,'fornecedor')).sort((a,b)=>b[1].afetados-b[1].afetados).slice(0,3).map(x=>x[0]).join(', ');
-  const riscosMais = Object.entries(agruparPorCampo(dados,'tipo_risco')).sort((a,b)=>b[1].afetados-b[1].afetados).slice(0,3).map(x=>x[0]).join(', ');
-  const paisesMais = Object.entries(agruparPorCampo(dados,'pais_origem')).sort((a,b)=>b[1].afetados-b[1].afetados).slice(0,3).map(x=>x[0]).join(', ');
+  const fornecedoresMais = Object.entries(agruparPorCampo(dados,'fornecedor'))    
+    .sort((a, b) => b[1].afetados - a[1].afetados) // b - a
+    .slice(0, 3)
+    .map(x => x[0])
+    .join(', ');
+  const riscosMais = Object.entries(agruparPorCampo(dados,'tipo_risco'))    
+    .sort((a, b) => b[1].afetados - a[1].afetados) // b - a
+    .slice(0, 3)
+    .map(x => x[0])
+    .join(', ');
+  const paisesMais = Object.entries(agruparPorCampo(dados, 'pais_origem'))
+    .sort((a, b) => b[1].afetados - a[1].afetados) // b - a
+    .slice(0, 3)
+    .map(x => x[0])
+    .join(', ');
+  const mesMais = Object.entries(agruparPorCampo(dados, 'mes'))
+    .sort((a, b) => b[1].afetados - a[1].afetados) // b - a
+    .slice(0, 3)
+    .map(x => x[0])
+    .join(', ');
+
 
   containerIA.innerHTML = `<h3>🧠 Resumo Inteligente (Executivo)</h3>
     <p><strong>Fornecedores com mais recalls:</strong> ${fornecedoresMais}</p>
     <p><strong>Tipos de risco mais frequentes:</strong> ${riscosMais}</p>
     <p><strong>Países com maior incidência:</strong> ${paisesMais}</p>
+    <p><strong>Meses com maior incidência:</strong> ${mesMais}</p>
     <p><strong>Total registros analisados:</strong> ${dados.length}</p>`;
 }
 
@@ -301,4 +320,3 @@ document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obt
 </script>
 </body>
 </html>
-
