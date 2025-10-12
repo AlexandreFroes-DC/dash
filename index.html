@@ -71,62 +71,57 @@
   </style>
 </head>
 <body>
-  <h2>📊 Dashboard ASPAD / MJSP</h2>
+<h2>📊 Dashboard ASPAD / MJSP</h2>
 
-  <!-- filtros -->
-  <div class="filtros" id="filtros-area">
-    <label for="ano">Ano:</label>
-    <select id="ano"><option value="">Todos</option></select>
+<div class="filtros" id="filtros-area">
+  <label for="ano">Ano:</label>
+  <select id="ano"><option value="">Todos</option></select>
 
-    <label for="fornecedor">Fornecedor:</label>
-    <select id="fornecedor"><option value="">Todos</option></select>
+  <label for="fornecedor">Fornecedor:</label>
+  <select id="fornecedor"><option value="">Todos</option></select>
 
-    <label for="pais">País:</label>
-    <select id="pais"><option value="">Todos</option></select>
+  <label for="pais">País:</label>
+  <select id="pais"><option value="">Todos</option></select>
 
-    <button id="btnLimpar">Limpar</button>
-  </div>
+  <button id="btnLimpar">Limpar</button>
+</div>
 
-  <!-- ações -->
-  <div class="acoes">
-    <label for="formato">Salvar como:</label>
-    <select id="formato">
-      <option value="png">PNG</option>
-      <option value="jpeg">JPEG</option>
-      <option value="svg">SVG</option>
-      <option value="pdf">PDF</option>
-    </select>
-    <button id="btnSalvar">💾 Salvar Gráficos</button>
-    <button id="btnImprimir">🖨️ Imprimir Gráficos</button>
-  </div>
+<div class="acoes">
+  <label for="formato">Salvar como:</label>
+  <select id="formato">
+    <option value="png">PNG</option>
+    <option value="jpeg">JPEG</option>
+    <option value="svg">SVG</option>
+    <option value="pdf">PDF</option>
+  </select>
+  <button id="btnSalvar">💾 Salvar Gráficos</button>
+  <button id="btnImprimir">🖨️ Imprimir Gráficos</button>
+</div>
 
-  <!-- gráficos -->
-  <div id="graficos">
-    <div id="graficoPais"></div>
-    <div id="graficoMes"></div>
-    <div id="graficoFornecedor"></div>
-    <div id="graficoRisco"></div>
-  </div>
+<div id="graficos">
+  <div id="graficoPais"></div>
+  <div id="graficoMes"></div>
+  <div id="graficoFornecedor"></div>
+  <div id="graficoRisco"></div>
+</div>
 
-  <!-- tabela -->
-  <div id="tabela-container">
-    <h3>📋 Tabela Recall</h3>
-    <div id="contador"></div>
-    <table id="tblRecall" class="display" style="width:100%">
-      <thead>
-        <tr>
-          <th>Data Início</th><th>Data Fim</th><th>Título</th><th>Fornecedor</th>
-          <th>Risco</th><th>País</th><th>Produto</th>
-          <th>Total Afetado</th><th>Total Atendido</th><th>% Atendido</th>
-        </tr>
-      </thead>
-      <tbody id="dadosTabela"></tbody>
-    </table>
-  </div>
+<div id="tabela-container">
+  <h3>📋 Tabela Recall</h3>
+  <div id="contador"></div>
+  <table id="tblRecall" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>Data Início</th><th>Data Fim</th><th>Título</th><th>Fornecedor</th>
+        <th>Risco</th><th>País</th><th>Produto</th>
+        <th>Total Afetado</th><th>Total Atendido</th><th>% Atendido</th>
+      </tr>
+    </thead>
+    <tbody id="dadosTabela"></tbody>
+  </table>
+</div>
 
-  <!-- análise IA -->
-  <div id="analise-ia"><em>🧠 Aguardando análise inteligente...</em></div>
-  <button id="btnIA">🔄 Atualizar Análise IA</button>
+<div id="analise-ia"><em>🧠 Aguardando análise inteligente...</em></div>
+<button id="btnIA">🔄 Atualizar Análise IA</button>
 
 <script>
 (async function(){
@@ -169,7 +164,7 @@
       atualizarTudo(baseDados);
     } catch(err) {
       console.error('Erro ao carregar dados:', err);
-      alert('Erro ao carregar dados. Veja o console para detalhes.');
+      alert('Erro ao carregar dados. Veja o console.');
     }
   }
 
@@ -177,9 +172,10 @@
     const anos = [...new Set(baseDados.map(d=>d.ano).filter(Boolean))].sort((a,b)=>a-b);
     const fornecedores = [...new Set(baseDados.map(d=>d.fornecedor).filter(Boolean))].sort();
     const paises = [...new Set(baseDados.map(d=>d.pais_origem).filter(Boolean))].sort();
-    anos.forEach(a => { const o=document.createElement('option'); o.value=a; o.textContent=a; selAno.appendChild(o); });
-    fornecedores.forEach(f => { const o=document.createElement('option'); o.value=f; o.textContent=f; selFornecedor.appendChild(o); });
-    paises.forEach(p => { const o=document.createElement('option'); o.value=p; o.textContent=p; selPais.appendChild(o); });
+
+    anos.forEach(a => selAno.appendChild(new Option(a,a)));
+    fornecedores.forEach(f => selFornecedor.appendChild(new Option(f,f)));
+    paises.forEach(p => selPais.appendChild(new Option(p,p)));
   }
 
   function obterFiltrados() {
@@ -199,18 +195,27 @@
     gerarAnaliseIA(dados);
   }
 
+  function agrupar(dados,campo,valorCampo='total_afetado'){
+    return dados.reduce((acc,d)=>{
+      const chave = d[campo]||'(Sem valor)';
+      acc[chave] = (acc[chave]||0) + Number(d[valorCampo]||0);
+      return acc;
+    }, {});
+  }
+
   function gerarGraficos(dados){
     const config = {responsive:true};
+
     const porPais = agrupar(dados,'pais_origem');
-    Plotly.newPlot('graficoPais',[{x:Object.keys(porPais),y:Object.values(porPais),type:'bar',marker:{color:'#4c78a8'}}],{title:'Distribuição por País',margin:{t:40}},config);
+    Plotly.newPlot('graficoPais',[{x:Object.keys(porPais),y:Object.values(porPais),type:'bar',marker:{color:'#4c78a8'}}],{title:'Total Afetado por País',margin:{t:40}},config);
 
     const porMes = agrupar(dados,'mes');
-    const meses = mesesOrdem.filter(m => porMes[m] !== undefined);
-    Plotly.newPlot('graficoMes',[{x:meses,y:meses.map(m=>porMes[m]),type:'bar',marker:{color:'#f58518'}}],{title:'Distribuição por Mês',margin:{t:40}},config);
+    const meses = mesesOrdem.filter(m => porMes[m]!==undefined);
+    Plotly.newPlot('graficoMes',[{x:meses,y:meses.map(m=>porMes[m]),type:'bar',marker:{color:'#f58518'}}],{title:'Total Afetado por Mês',margin:{t:40}},config);
 
     const porFornecedor = agrupar(dados,'fornecedor');
     const listFor = Object.entries(porFornecedor).sort((a,b)=>b[1]-a[1]).slice(0,10);
-    Plotly.newPlot('graficoFornecedor',[{x:listFor.map(x=>x[0]),y:listFor.map(x=>x[1]),type:'bar',marker:{color:'#54a24b'}}],{title:'Top Fornecedores (Top 10)',margin:{t:40,b:120}},config);
+    Plotly.newPlot('graficoFornecedor',[{x:listFor.map(x=>x[0]),y:listFor.map(x=>x[1]),type:'bar',marker:{color:'#54a24b'}}],{title:'Top Fornecedores',margin:{t:40,b:120}},config);
 
     const porRisco = agrupar(dados,'tipo_risco');
     Plotly.newPlot('graficoRisco',[{labels:Object.keys(porRisco),values:Object.values(porRisco),type:'pie'}],{title:'Classificação de Risco',margin:{t:40}},config);
@@ -233,33 +238,21 @@
       </tr>
     `).join('');
     document.getElementById('contador').innerText = `Total de registros: ${dados.length}`;
+
     if($.fn.DataTable.isDataTable('#tblRecall')) $('#tblRecall').DataTable().clear().destroy();
     $('#tblRecall').DataTable({pageLength:10,responsive:true,order:[[0,'asc']],language:{url:"https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json"}});
   }
 
-  function agrupar(dados,campo){
-    return dados.reduce((acc,d)=>{ const chave=d[campo]||'(Sem valor)'; acc[chave]=(acc[chave]||0)+1; return acc; },{});
-  }
-
   function escapeHtml(text){ if(!text && text!==0) return ''; return String(text).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 
-  [selAno, selFornecedor, selPais].forEach(sel => sel.addEventListener('change', () => atualizarTudo(obterFiltrados())));
-  btnLimpar.addEventListener('click', ()=>{ selAno.value=''; selFornecedor.value=''; selPais.value=''; atualizarTudo(baseDados); });
-  document.getElementById('btnIA').addEventListener('click', ()=> gerarAnaliseIA(obterFiltrados()));
-
+  [selAno, selFornecedor, selPais].forEach(sel=>sel.addEventListener('change',()=>atualizarTudo(obterFiltrados())));
+  btnLimpar.addEventListener('click',()=>{ selAno.value=''; selFornecedor.value=''; selPais.value=''; atualizarTudo(baseDados); });
   window.addEventListener("DOMContentLoaded", carregarDados);
 
-})();
-
-// --- IA Gemini via servidor ---
-async function gerarAnaliseIA(dados){
-  const containerIA = document.getElementById('analise-ia');
-  containerIA.innerHTML = '<em>🧠 Gerando resumo inteligente...<span class="loader"></span></em>';
-
-  try {
-    // 1️⃣ Pega a chave do servidor
-    const chaveRes = await fetch("/api/key");
-    const { key: GEMINI_API_KEY } = await chaveRes.json();
+  // --- IA simples no front-end ---
+  async function gerarAnaliseIA(dados){
+    const containerIA = document.getElementById('analise-ia');
+    containerIA.innerHTML = '<em>🧠 Gerando resumo inteligente...<span class="loader"></span></em>';
 
     const resumo = dados.slice(0,50).map(d=>({
       fornecedor:d.fornecedor,
@@ -269,30 +262,21 @@ async function gerarAnaliseIA(dados){
       atendidos:d.total_atendido
     }));
 
-    const prompt = `Gere um resumo analítico e interpretativo dos dados de recall abaixo, destacando:
-      - fornecedores com mais recalls
-      - tipos de risco mais frequentes
-      - países com maior incidência
-      - oportunidades de melhoria.
-      Seja conciso, objetivo e use português claro.
-      Dados:
-      ${JSON.stringify(resumo,null,2)}
-    `;
+    // Simulação simples de análise (substitui IA externa)
+    const fornecedoresMais = Object.entries(agrupar(dados,'fornecedor')).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]).join(', ');
+    const riscosMais = Object.entries(agrupar(dados,'tipo_risco')).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]).join(', ');
+    const paisesMais = Object.entries(agrupar(dados,'pais_origem')).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]).join(', ');
 
-    const resposta = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
-      { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({contents:[{role:"user",parts:[{text:prompt}]}]}) }
-    );
-
-    const json = await resposta.json();
-    const texto = json.candidates?.[0]?.content?.parts?.[0]?.text || "Não foi possível gerar o resumo.";
-
-    containerIA.innerHTML = `<h3>🧠 Resumo Inteligente (Gemini)</h3><p>${texto.replace(/\n/g,'<br>')}</p>`;
-  } catch(err){
-    console.error(err);
-    containerIA.innerHTML = '<p style="color:red;">Erro ao gerar resumo inteligente com Gemini.</p>';
+    containerIA.innerHTML = `<h3>🧠 Resumo Inteligente (Simulado)</h3>
+      <p><strong>Fornecedores com mais recalls:</strong> ${fornecedoresMais}</p>
+      <p><strong>Tipos de risco mais frequentes:</strong> ${riscosMais}</p>
+      <p><strong>Países com maior incidência:</strong> ${paisesMais}</p>
+      <p><strong>Total registros analisados:</strong> ${dados.length}</p>`;
   }
-}
+
+  document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obterFiltrados()));
+
+})();
 </script>
 </body>
 </html>
