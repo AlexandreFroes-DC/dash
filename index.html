@@ -1,79 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <title>Dashboard ASPAD / MJSP</title>
+<meta charset="UTF-8" />
+<title>Dashboard ASPAD / MJSP - Executivo Premium</title>
 
-  <!-- Plotly -->
-  <script src="https://cdn.plot.ly/plotly-2.29.0.min.js"></script>
+<!-- Plotly -->
+<script src="https://cdn.plot.ly/plotly-2.29.0.min.js"></script>
 
-  <!-- jsPDF -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<!-- jsPDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
-  <!-- DataTables -->
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<!-- DataTables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 
-  <style>
-    body { font-family: Arial, sans-serif; margin: 18px; background: #f7f7f7; color: #222; }
-    h2 { margin-bottom: 12px; }
-    .filtros { margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items:center; }
-    .filtros label { font-weight:600; margin-right:4px; }
-    .filtros select, .filtros button { padding:6px 10px; border-radius:6px; border:1px solid #cfcfcf; }
-    .filtros button { background:#007BFF; color:#fff; cursor:pointer; border:none; }
-    .filtros button:hover { background:#0056b3; }
+<style>
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 18px; background: #f4f6f8; color: #222; }
+h2 { margin-bottom: 12px; font-weight: 600; color: #1f3b72; }
 
-    .acoes { margin: 12px 0; display:flex; gap:8px; align-items:center; flex-wrap: wrap; }
-    .acoes select, .acoes button { padding:6px 10px; border-radius:6px; border:1px solid #cfcfcf; }
-    .acoes button { background:#28a745; color:#fff; cursor:pointer; border:none; }
-    .acoes button:hover { background:#1e7e34; }
+.filtros, .acoes { margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items:center; }
+.filtros label, .acoes label { font-weight:600; color:#333; }
+select, button { padding:6px 12px; border-radius:20px; border:1px solid #cfcfcf; font-size:14px; }
+button { cursor:pointer; transition: all 0.3s ease; }
 
-    #graficos { display:flex; flex-direction:column; gap:18px; width:100%; }
-    #graficos > div { min-height:300px; background:#fff; border-radius:6px; padding:8px; }
+.filtros button { background:#1f3b72; color:#fff; border:none; }
+.filtros button:hover { background:#16335a; }
 
-    #tabela-container { background:#fff; border-radius:6px; padding:8px; margin-top:16px; }
-    #contador { margin-bottom:8px; font-weight:600; }
+.acoes button { background:#6f42c1; color:#fff; border:none; }
+.acoes button:hover { background:#563d7c; }
 
-    #analise-ia { background:#fff; border-radius:6px; padding:12px; margin-top:16px; }
-    #analise-ia em { color:#555; }
+#graficos { display:flex; flex-direction:column; gap:18px; width:100%; }
+#graficos > div { min-height:350px; background:#fff; border-radius:20px; padding:10px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
 
-    #btnIA {
-      margin-top:10px;
-      background:#6f42c1;
-      color:#fff;
-      padding:8px 14px;
-      border:none;
-      border-radius:6px;
-      cursor:pointer;
-    }
-    #btnIA:hover { background:#563d7c; }
+#tabela-container { background:#fff; border-radius:20px; padding:10px; margin-top:20px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+#contador { margin-bottom:8px; font-weight:600; }
 
-    .loader {
-      display: inline-block;
-      width: 18px;
-      height: 18px;
-      border: 3px solid #ccc;
-      border-top: 3px solid #007bff;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-      vertical-align: middle;
-      margin-left: 8px;
-    }
-    @keyframes spin { 100% { transform: rotate(360deg); } }
+#analise-ia { background:#fff; border-radius:20px; padding:16px; margin-top:20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+#analise-ia em { color:#555; }
 
-    @page { size: A4 landscape; margin: 10mm; }
-    @media print {
-      body * { visibility: hidden; }
-      #graficos, #graficos * { visibility: visible; }
-      #graficos { position: absolute; left: 0; top: 0; width: 100%; }
-    }
-  </style>
+#btnIA { margin-top:10px; background:#ff6f61; color:#fff; padding:10px 16px; border:none; border-radius:20px; cursor:pointer; }
+#btnIA:hover { background:#e85a4f; }
+
+.loader { display:inline-block; width:20px; height:20px; border:3px solid #ccc; border-top:3px solid #1f3b72; border-radius:50%; animation:spin 1s linear infinite; vertical-align:middle; margin-left:8px; }
+@keyframes spin { 100% { transform: rotate(360deg); } }
+
+@page { size: A4 landscape; margin: 10mm; }
+@media print { body * { visibility: hidden; } #graficos, #graficos * { visibility: visible; } #graficos { position: absolute; left: 0; top: 0; width: 100%; } }
+</style>
 </head>
 <body>
-<h2>📊 Dashboard ASPAD / MJSP</h2>
 
-<div class="filtros" id="filtros-area">
+<h2>Dashboard ASPAD / MJSP</h2>
+
+<div class="filtros">
   <label for="ano">Ano:</label>
   <select id="ano"><option value="">Todos</option></select>
 
@@ -125,156 +105,197 @@
 
 <script>
 (async function(){
-  let baseDados = [];
-  const mesesOrdem = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
-  const selAno = document.getElementById('ano');
-  const selFornecedor = document.getElementById('fornecedor');
-  const selPais = document.getElementById('pais');
-  const btnLimpar = document.getElementById('btnLimpar');
+let baseDados = [];
+const mesesOrdem = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+const selAno = document.getElementById('ano');
+const selFornecedor = document.getElementById('fornecedor');
+const selPais = document.getElementById('pais');
+const btnLimpar = document.getElementById('btnLimpar');
 
-  async function carregarDados() {
-    try {
-      const res = await fetch('campanhas_recall.json');
-      const json = await res.json();
-      const tableNode = json.find(e => e.type === 'table');
-      if(!tableNode || !Array.isArray(tableNode.data)) throw new Error('Formato JSON inesperado');
+async function carregarDados() {
+  try {
+    const res = await fetch('campanhas_recall.json');
+    const json = await res.json();
+    const tableNode = json.find(e => e.type === 'table');
+    if(!tableNode || !Array.isArray(tableNode.data)) throw new Error('Formato JSON inesperado');
 
-      baseDados = tableNode.data.map(d => {
-        const dataIni = d.data_inicio ? new Date(d.data_inicio) : null;
-        const afetado = Number(d.total_afetado) || 0;
-        const atendido = Number(d.total_atendido) || 0;
-        return {
-          id: d.id || '',
-          data_inicio: d.data_inicio || '',
-          data_fim_campanha: d.data_fim_campanha || '',
-          titulo: d.titulo || '',
-          fornecedor: d.fornecedor || '(Sem valor)',
-          tipo_risco: d.tipo_risco || '(Sem valor)',
-          pais_origem: d.pais_origem || '(Sem valor)',
-          produto: d.produto || '',
-          total_afetado: afetado,
-          total_atendido: atendido,
-          perc_atendido: afetado>0 ? ((atendido/afetado)*100).toFixed(1) : '0',
-          ano: dataIni ? dataIni.getFullYear() : '(Sem valor)',
-          mes: dataIni ? mesesOrdem[dataIni.getMonth()] : '(Sem valor)'
-        };
-      });
+    baseDados = tableNode.data.map(d => {
+      const dataIni = d.data_inicio ? new Date(d.data_inicio) : null;
+      const afetado = Number(d.total_afetado) || 0;
+      const atendido = Number(d.total_atendido) || 0;
+      return {
+        id: d.id || '',
+        data_inicio: d.data_inicio || '',
+        data_fim_campanha: d.data_fim_campanha || '',
+        titulo: d.titulo || '',
+        fornecedor: d.fornecedor || '(Sem valor)',
+        tipo_risco: d.tipo_risco || '(Sem valor)',
+        pais_origem: d.pais_origem || '(Sem valor)',
+        produto: d.produto || '',
+        total_afetado: afetado,
+        total_atendido: atendido,
+        perc_atendido: afetado>0 ? ((atendido/afetado)*100).toFixed(1) : '0',
+        ano: dataIni ? dataIni.getFullYear() : '(Sem valor)',
+        mes: dataIni ? mesesOrdem[dataIni.getMonth()] : '(Sem valor)'
+      };
+    });
 
-      preencherFiltros();
-      atualizarTudo(baseDados);
-    } catch(err) {
-      console.error('Erro ao carregar dados:', err);
-      alert('Erro ao carregar dados. Veja o console.');
+    preencherFiltros();
+    atualizarTudo(baseDados);
+  } catch(err) {
+    console.error('Erro ao carregar dados:', err);
+    alert('Erro ao carregar dados. Veja o console.');
+  }
+}
+
+function preencherFiltros() {
+  const anos = [...new Set(baseDados.map(d=>d.ano).filter(Boolean))].sort((a,b)=>a-b);
+  const fornecedores = [...new Set(baseDados.map(d=>d.fornecedor).filter(Boolean))].sort();
+  const paises = [...new Set(baseDados.map(d=>d.pais_origem).filter(Boolean))].sort();
+
+  anos.forEach(a => selAno.appendChild(new Option(a,a)));
+  fornecedores.forEach(f => selFornecedor.appendChild(new Option(f,f)));
+  paises.forEach(p => selPais.appendChild(new Option(p,p)));
+}
+
+function obterFiltrados() {
+  const anoFiltro = selAno.value;
+  const fornecedorFiltro = selFornecedor.value;
+  const paisFiltro = selPais.value;
+  return baseDados.filter(d =>
+    (!anoFiltro || String(d.ano)===String(anoFiltro)) &&
+    (!fornecedorFiltro || d.fornecedor===fornecedorFiltro) &&
+    (!paisFiltro || d.pais_origem===paisFiltro)
+  );
+}
+
+function atualizarTudo(dados){
+  gerarGraficos(dados);
+  preencherTabela(dados);
+  gerarAnaliseIA(dados);
+}
+
+function agruparPorCampo(dados, campo, campoValorAfetado='total_afetado', campoValorAtendido='total_atendido') {
+  return dados.reduce((acc, d) => {
+    const chave = d[campo] || '(Sem valor)';
+    if (!acc[chave]) acc[chave] = { afetados: 0, atendidos: 0 };
+    acc[chave].afetados += Number(d[campoValorAfetado] || 0);
+    acc[chave].atendidos += Number(d[campoValorAtendido] || 0);
+    return acc;
+  }, {});
+}
+
+// --- Dashboard Executivo Premium ---
+function gerarGraficos(dados){
+  const config = {responsive:true, displayModeBar: false};
+
+  const porPais = agruparPorCampo(dados,'pais_origem');
+  const xPais = Object.keys(porPais);
+  const yPais = Object.values(porPais).map(v=>v.afetados);
+  const colorsPais = yPais.map((_,i)=>`linear-gradient(45deg, rgba(31,59,114,${0.7+i*0.03}), rgba(111,168,220,0.7))`);
+
+  Plotly.react('graficoPais',[{
+    x:xPais, y:yPais, type:'bar',
+    marker:{color:'#1f3b72', line:{color:'#0f2247', width:2}},
+    text:yPais.map(v=>v.toLocaleString()), textposition:'auto', hoverinfo:'x+y'
+  }],{title:'Total Afetado por País', margin:{t:40}}, config);
+
+  const porMes = agruparPorCampo(dados,'mes');
+  const meses = mesesOrdem.filter(m => porMes[m]!==undefined);
+  const yAfetados = meses.map(m => porMes[m].afetados);
+  const yAtendidos = meses.map(m => porMes[m].atendidos);
+  const perc = meses.map((m,i)=> yAfetados[i]>0?((yAtendidos[i]/yAfetados[i])*100).toFixed(1):0);
+
+  Plotly.react('graficoMes',[
+    { x:meses, y:yAfetados, type:'bar', name:'Afetados',
+      marker:{color:'rgba(31,59,114,0.8)', line:{width:1, color:'#0f2247'}},
+      text: perc.map(p=>p+'%'), textposition:'auto', hoverinfo:'x+y+text'
+    },
+    { x:meses, y:yAtendidos, type:'bar', name:'Atendidos',
+      marker:{color:'rgba(111,168,220,0.8)', line:{width:1, color:'#1f3b72'}},
+      text: perc.map(p=>p+'%'), textposition:'auto', hoverinfo:'x+y+text'
     }
-  }
+  ],{title:'Afetados x Atendidos por Mês', barmode:'group', margin:{t:40}, transition:{duration:1200, easing:'cubic-in-out'}}, config);
 
-  function preencherFiltros() {
-    const anos = [...new Set(baseDados.map(d=>d.ano).filter(Boolean))].sort((a,b)=>a-b);
-    const fornecedores = [...new Set(baseDados.map(d=>d.fornecedor).filter(Boolean))].sort();
-    const paises = [...new Set(baseDados.map(d=>d.pais_origem).filter(Boolean))].sort();
+ const porFornecedor = agruparPorCampo(dados,'fornecedor');
+const topForn = Object.entries(porFornecedor)
+    .sort((a,b)=>b[1].afetados - a[1].afetados)
+    .slice(0,10);
 
-    anos.forEach(a => selAno.appendChild(new Option(a,a)));
-    fornecedores.forEach(f => selFornecedor.appendChild(new Option(f,f)));
-    paises.forEach(p => selPais.appendChild(new Option(p,p)));
-  }
+Plotly.react('graficoFornecedor', [{
+    x: topForn.map(x => x[0]),
+    y: topForn.map(x => x[1].afetados),
+    type: 'bar',
+    marker: {
+        color: 'rgba(111,168,220,0.85)',
+        line: { width: 1, color: '#1f3b72' }
+    },
+    text: topForn.map(v => v[1].afetados.toLocaleString()), // ✅ acessar 'afetados'
+    textposition: 'outside',
+    textfont: { size: 14, color: '#1f3b72', family: 'Arial, sans-serif' },
+    hoverinfo: 'x+y+text'
+}], {
+    title: 'Top Fornecedores (Afetados)',
+    margin: { t: 40, b: 120 },
+    yaxis: { automargin: true }
+}, {responsive: true});
 
-  function obterFiltrados() {
-    const anoFiltro = selAno.value;
-    const fornecedorFiltro = selFornecedor.value;
-    const paisFiltro = selPais.value;
-    return baseDados.filter(d =>
-      (!anoFiltro || String(d.ano)===String(anoFiltro)) &&
-      (!fornecedorFiltro || d.fornecedor===fornecedorFiltro) &&
-      (!paisFiltro || d.pais_origem===paisFiltro)
-    );
-  }
 
-  function atualizarTudo(dados){
-    gerarGraficos(dados);
-    preencherTabela(dados);
-    gerarAnaliseIA(dados);
-  }
+  const porRisco = agruparPorCampo(dados,'tipo_risco');
+  const labelsRisco = Object.keys(porRisco);
+  const valuesRisco = Object.values(porRisco).map(v=>v.afetados);
+  Plotly.react('graficoRisco',[{
+    labels: labelsRisco, values: valuesRisco, type:'pie',
+    textinfo:'label+percent', textposition:'inside',
+    marker:{colors:['#1f3b72','#6f42c1','#ff6f61','#54a24b','#e377c2']},
+    hoverinfo:'label+value+percent'
+  }],{title:'Classificação de Risco', margin:{t:40}, transition:{duration:1200, easing:'cubic-in-out'}}, config);
+}
 
-  function agrupar(dados,campo,valorCampo='total_afetado'){
-    return dados.reduce((acc,d)=>{
-      const chave = d[campo]||'(Sem valor)';
-      acc[chave] = (acc[chave]||0) + Number(d[valorCampo]||0);
-      return acc;
-    }, {});
-  }
+function preencherTabela(dados){
+  const tbody = document.getElementById('dadosTabela');
+  tbody.innerHTML = dados.map(d=>`
+    <tr>
+      <td>${d.data_inicio}</td>
+      <td>${d.data_fim_campanha||''}</td>
+      <td>${escapeHtml(d.titulo)}</td>
+      <td>${escapeHtml(d.fornecedor)}</td>
+      <td>${escapeHtml(d.tipo_risco)}</td>
+      <td>${escapeHtml(d.pais_origem)}</td>
+      <td>${escapeHtml(d.produto)}</td>
+      <td>${d.total_afetado.toLocaleString('pt-BR')}</td>
+      <td>${d.total_atendido.toLocaleString('pt-BR')}</td>
+      <td>${d.perc_atendido}%</td>
+    </tr>
+  `).join('');
+  document.getElementById('contador').innerText = `Total de registros: ${dados.length}`;
 
-  function gerarGraficos(dados){
-    const config = {responsive:true};
+  if($.fn.DataTable.isDataTable('#tblRecall')) $('#tblRecall').DataTable().clear().destroy();
+  $('#tblRecall').DataTable({pageLength:10,responsive:true,order:[[0,'asc']],language:{url:"https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json"}});
+}
 
-    const porPais = agrupar(dados,'pais_origem');
-    Plotly.newPlot('graficoPais',[{x:Object.keys(porPais),y:Object.values(porPais),type:'bar',marker:{color:'#4c78a8'}}],{title:'Total Afetado por País',margin:{t:40}},config);
+function escapeHtml(text){ if(!text && text!==0) return ''; return String(text).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 
-    const porMes = agrupar(dados,'mes');
-    const meses = mesesOrdem.filter(m => porMes[m]!==undefined);
-    Plotly.newPlot('graficoMes',[{x:meses,y:meses.map(m=>porMes[m]),type:'bar',marker:{color:'#f58518'}}],{title:'Total Afetado por Mês',margin:{t:40}},config);
+[selAno, selFornecedor, selPais].forEach(sel=>sel.addEventListener('change',()=>atualizarTudo(obterFiltrados())));
+btnLimpar.addEventListener('click',()=>{ selAno.value=''; selFornecedor.value=''; selPais.value=''; atualizarTudo(baseDados); });
+window.addEventListener("DOMContentLoaded", carregarDados);
 
-    const porFornecedor = agrupar(dados,'fornecedor');
-    const listFor = Object.entries(porFornecedor).sort((a,b)=>b[1]-a[1]).slice(0,10);
-    Plotly.newPlot('graficoFornecedor',[{x:listFor.map(x=>x[0]),y:listFor.map(x=>x[1]),type:'bar',marker:{color:'#54a24b'}}],{title:'Top Fornecedores',margin:{t:40,b:120}},config);
+async function gerarAnaliseIA(dados){
+  const containerIA = document.getElementById('analise-ia');
+  containerIA.innerHTML = '<em>🧠 Gerando resumo inteligente...<span class="loader"></span></em>';
 
-    const porRisco = agrupar(dados,'tipo_risco');
-    Plotly.newPlot('graficoRisco',[{labels:Object.keys(porRisco),values:Object.values(porRisco),type:'pie'}],{title:'Classificação de Risco',margin:{t:40}},config);
-  }
+  const fornecedoresMais = Object.entries(agruparPorCampo(dados,'fornecedor')).sort((a,b)=>b[1].afetados-b[1].afetados).slice(0,3).map(x=>x[0]).join(', ');
+  const riscosMais = Object.entries(agruparPorCampo(dados,'tipo_risco')).sort((a,b)=>b[1].afetados-b[1].afetados).slice(0,3).map(x=>x[0]).join(', ');
+  const paisesMais = Object.entries(agruparPorCampo(dados,'pais_origem')).sort((a,b)=>b[1].afetados-b[1].afetados).slice(0,3).map(x=>x[0]).join(', ');
 
-  function preencherTabela(dados){
-    const tbody = document.getElementById('dadosTabela');
-    tbody.innerHTML = dados.map(d=>`
-      <tr>
-        <td>${d.data_inicio}</td>
-        <td>${d.data_fim_campanha||''}</td>
-        <td>${escapeHtml(d.titulo)}</td>
-        <td>${escapeHtml(d.fornecedor)}</td>
-        <td>${escapeHtml(d.tipo_risco)}</td>
-        <td>${escapeHtml(d.pais_origem)}</td>
-        <td>${escapeHtml(d.produto)}</td>
-        <td>${d.total_afetado.toLocaleString('pt-BR')}</td>
-        <td>${d.total_atendido.toLocaleString('pt-BR')}</td>
-        <td>${d.perc_atendido}%</td>
-      </tr>
-    `).join('');
-    document.getElementById('contador').innerText = `Total de registros: ${dados.length}`;
+  containerIA.innerHTML = `<h3>🧠 Resumo Inteligente (Executivo)</h3>
+    <p><strong>Fornecedores com mais recalls:</strong> ${fornecedoresMais}</p>
+    <p><strong>Tipos de risco mais frequentes:</strong> ${riscosMais}</p>
+    <p><strong>Países com maior incidência:</strong> ${paisesMais}</p>
+    <p><strong>Total registros analisados:</strong> ${dados.length}</p>`;
+}
 
-    if($.fn.DataTable.isDataTable('#tblRecall')) $('#tblRecall').DataTable().clear().destroy();
-    $('#tblRecall').DataTable({pageLength:10,responsive:true,order:[[0,'asc']],language:{url:"https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json"}});
-  }
-
-  function escapeHtml(text){ if(!text && text!==0) return ''; return String(text).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
-
-  [selAno, selFornecedor, selPais].forEach(sel=>sel.addEventListener('change',()=>atualizarTudo(obterFiltrados())));
-  btnLimpar.addEventListener('click',()=>{ selAno.value=''; selFornecedor.value=''; selPais.value=''; atualizarTudo(baseDados); });
-  window.addEventListener("DOMContentLoaded", carregarDados);
-
-  // --- IA simples no front-end ---
-  async function gerarAnaliseIA(dados){
-    const containerIA = document.getElementById('analise-ia');
-    containerIA.innerHTML = '<em>🧠 Gerando resumo inteligente...<span class="loader"></span></em>';
-
-    const resumo = dados.slice(0,50).map(d=>({
-      fornecedor:d.fornecedor,
-      tipo_risco:d.tipo_risco,
-      pais:d.pais_origem,
-      afetados:d.total_afetado,
-      atendidos:d.total_atendido
-    }));
-
-    // Simulação simples de análise (substitui IA externa)
-    const fornecedoresMais = Object.entries(agrupar(dados,'fornecedor')).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]).join(', ');
-    const riscosMais = Object.entries(agrupar(dados,'tipo_risco')).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]).join(', ');
-    const paisesMais = Object.entries(agrupar(dados,'pais_origem')).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]).join(', ');
-
-    containerIA.innerHTML = `<h3>🧠 Resumo Inteligente (Simulado)</h3>
-      <p><strong>Fornecedores com mais recalls:</strong> ${fornecedoresMais}</p>
-      <p><strong>Tipos de risco mais frequentes:</strong> ${riscosMais}</p>
-      <p><strong>Países com maior incidência:</strong> ${paisesMais}</p>
-      <p><strong>Total registros analisados:</strong> ${dados.length}</p>`;
-  }
-
-  document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obterFiltrados()));
+document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obterFiltrados()));
 
 })();
 </script>
