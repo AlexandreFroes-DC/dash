@@ -2,10 +2,10 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>Dashboard ASPAD/MJSP</title>
+  <title>Dashboard ASPAD / MJSP</title>
 
   <!-- Plotly -->
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.29.0.min.js"></script>
 
   <!-- jsPDF -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -35,6 +35,33 @@
     #tabela-container { background:#fff; border-radius:6px; padding:8px; margin-top:16px; }
     #contador { margin-bottom:8px; font-weight:600; }
 
+    #analise-ia { background:#fff; border-radius:6px; padding:12px; margin-top:16px; }
+    #analise-ia em { color:#555; }
+
+    #btnIA {
+      margin-top:10px;
+      background:#6f42c1;
+      color:#fff;
+      padding:8px 14px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+    }
+    #btnIA:hover { background:#563d7c; }
+
+    .loader {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      border: 3px solid #ccc;
+      border-top: 3px solid #007bff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+
     @page { size: A4 landscape; margin: 10mm; }
     @media print {
       body * { visibility: hidden; }
@@ -60,7 +87,7 @@
     <button id="btnLimpar">Limpar</button>
   </div>
 
-  <!-- ações de salvar/imprimir -->
+  <!-- ações -->
   <div class="acoes">
     <label for="formato">Salvar como:</label>
     <select id="formato">
@@ -73,7 +100,7 @@
     <button id="btnImprimir">🖨️ Imprimir Gráficos</button>
   </div>
 
-  <!-- Área de gráficos -->
+  <!-- gráficos -->
   <div id="graficos">
     <div id="graficoPais"></div>
     <div id="graficoMes"></div>
@@ -81,7 +108,7 @@
     <div id="graficoRisco"></div>
   </div>
 
-  <!-- Tabela -->
+  <!-- tabela -->
   <div id="tabela-container">
     <h3>📋 Tabela Recall</h3>
     <div id="contador"></div>
@@ -89,31 +116,31 @@
       <thead>
         <tr>
           <th>Data Início</th><th>Data Fim</th><th>Título</th><th>Fornecedor</th>
-          <th>Risco</th><th>País</th><th>Produto</th><th>Total Afetado</th><th>Total Atendido</th><th>% Atendido</th>
+          <th>Risco</th><th>País</th><th>Produto</th>
+          <th>Total Afetado</th><th>Total Atendido</th><th>% Atendido</th>
         </tr>
       </thead>
       <tbody id="dadosTabela"></tbody>
     </table>
   </div>
 
+  <!-- análise IA -->
+  <div id="analise-ia"><em>🧠 Aguardando análise inteligente...</em></div>
+  <button id="btnIA">🔄 Atualizar Análise IA</button>
+
 <script>
-(function(){
+(async function(){
   let baseDados = [];
   const mesesOrdem = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
-
   const selAno = document.getElementById('ano');
   const selFornecedor = document.getElementById('fornecedor');
   const selPais = document.getElementById('pais');
   const btnLimpar = document.getElementById('btnLimpar');
-  const btnSalvar = document.getElementById('btnSalvar');
-  const btnImprimir = document.getElementById('btnImprimir');
-  const selFormato = document.getElementById('formato');
 
   async function carregarDados() {
     try {
       const res = await fetch('campanhas_recall.json');
       const json = await res.json();
-
       const tableNode = json.find(e => e.type === 'table');
       if(!tableNode || !Array.isArray(tableNode.data)) throw new Error('Formato JSON inesperado');
 
@@ -122,25 +149,24 @@
         const afetado = Number(d.total_afetado) || 0;
         const atendido = Number(d.total_atendido) || 0;
         return {
-          id: d.id,
+          id: d.id || '',
           data_inicio: d.data_inicio || '',
           data_fim_campanha: d.data_fim_campanha || '',
           titulo: d.titulo || '',
-          fornecedor: d.fornecedor || '',
-          tipo_risco: d.tipo_risco || '',
-          pais_origem: d.pais_origem || '',
+          fornecedor: d.fornecedor || '(Sem valor)',
+          tipo_risco: d.tipo_risco || '(Sem valor)',
+          pais_origem: d.pais_origem || '(Sem valor)',
           produto: d.produto || '',
           total_afetado: afetado,
           total_atendido: atendido,
           perc_atendido: afetado>0 ? ((atendido/afetado)*100).toFixed(1) : '0',
-          ano: dataIni ? dataIni.getFullYear() : '',
-          mes: dataIni ? mesesOrdem[dataIni.getMonth()] : ''
+          ano: dataIni ? dataIni.getFullYear() : '(Sem valor)',
+          mes: dataIni ? mesesOrdem[dataIni.getMonth()] : '(Sem valor)'
         };
       });
 
       preencherFiltros();
-      ligarEventosAutoUpdate();
-      atualizarVisualizacoes(baseDados);
+      atualizarTudo(baseDados);
     } catch(err) {
       console.error('Erro ao carregar dados:', err);
       alert('Erro ao carregar dados. Veja o console para detalhes.');
@@ -151,7 +177,6 @@
     const anos = [...new Set(baseDados.map(d=>d.ano).filter(Boolean))].sort((a,b)=>a-b);
     const fornecedores = [...new Set(baseDados.map(d=>d.fornecedor).filter(Boolean))].sort();
     const paises = [...new Set(baseDados.map(d=>d.pais_origem).filter(Boolean))].sort();
-
     anos.forEach(a => { const o=document.createElement('option'); o.value=a; o.textContent=a; selAno.appendChild(o); });
     fornecedores.forEach(f => { const o=document.createElement('option'); o.value=f; o.textContent=f; selFornecedor.appendChild(o); });
     paises.forEach(p => { const o=document.createElement('option'); o.value=p; o.textContent=p; selPais.appendChild(o); });
@@ -161,7 +186,6 @@
     const anoFiltro = selAno.value;
     const fornecedorFiltro = selFornecedor.value;
     const paisFiltro = selPais.value;
-
     return baseDados.filter(d =>
       (!anoFiltro || String(d.ano)===String(anoFiltro)) &&
       (!fornecedorFiltro || d.fornecedor===fornecedorFiltro) &&
@@ -169,25 +193,24 @@
     );
   }
 
-  function atualizarVisualizacoes(dados){
+  function atualizarTudo(dados){
     gerarGraficos(dados);
     preencherTabela(dados);
+    gerarAnaliseIA(dados);
   }
 
   function gerarGraficos(dados){
     const config = {responsive:true};
-
     const porPais = agrupar(dados,'pais_origem');
     Plotly.newPlot('graficoPais',[{x:Object.keys(porPais),y:Object.values(porPais),type:'bar',marker:{color:'#4c78a8'}}],{title:'Distribuição por País',margin:{t:40}},config);
 
     const porMes = agrupar(dados,'mes');
-    const meses = mesesOrdem.filter(m=>porMes[m]!==undefined);
-    const valsMes = meses.map(m=>porMes[m]);
-    Plotly.newPlot('graficoMes',[{x:meses,y:valsMes,type:'bar',marker:{color:'#f58518'}}],{title:'Distribuição por Mês',margin:{t:40}},config);
+    const meses = mesesOrdem.filter(m => porMes[m] !== undefined);
+    Plotly.newPlot('graficoMes',[{x:meses,y:meses.map(m=>porMes[m]),type:'bar',marker:{color:'#f58518'}}],{title:'Distribuição por Mês',margin:{t:40}},config);
 
     const porFornecedor = agrupar(dados,'fornecedor');
     const listFor = Object.entries(porFornecedor).sort((a,b)=>b[1]-a[1]).slice(0,10);
-    Plotly.newPlot('graficoFornecedor',[{x:listFor.map(x=>x[0]),y:listFor.map(x=>x[1]),type:'bar',marker:{color:'#54a24b'}}],{title:'Top Fornecedores (top 10)',margin:{t:40,b:120}},config);
+    Plotly.newPlot('graficoFornecedor',[{x:listFor.map(x=>x[0]),y:listFor.map(x=>x[1]),type:'bar',marker:{color:'#54a24b'}}],{title:'Top Fornecedores (Top 10)',margin:{t:40,b:120}},config);
 
     const porRisco = agrupar(dados,'tipo_risco');
     Plotly.newPlot('graficoRisco',[{labels:Object.keys(porRisco),values:Object.values(porRisco),type:'pie'}],{title:'Classificação de Risco',margin:{t:40}},config);
@@ -210,98 +233,66 @@
       </tr>
     `).join('');
     document.getElementById('contador').innerText = `Total de registros: ${dados.length}`;
-
-    if($.fn.DataTable.isDataTable('#tblRecall')){
-      $('#tblRecall').DataTable().clear().destroy();
-    }
+    if($.fn.DataTable.isDataTable('#tblRecall')) $('#tblRecall').DataTable().clear().destroy();
     $('#tblRecall').DataTable({pageLength:10,responsive:true,order:[[0,'asc']],language:{url:"https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json"}});
   }
 
   function agrupar(dados,campo){
-    return dados.reduce((acc,d)=>{
-      const chave = d[campo]||'(Sem valor)';
-      acc[chave]=(acc[chave]||0)+1;
-      return acc;
-    },{});
+    return dados.reduce((acc,d)=>{ const chave=d[campo]||'(Sem valor)'; acc[chave]=(acc[chave]||0)+1; return acc; },{});
   }
 
-  function escapeHtml(text){
-    if(!text && text!==0) return '';
-    return String(text).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-  }
+  function escapeHtml(text){ if(!text && text!==0) return ''; return String(text).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 
-  async function salvarGraficos(){
-    const formato = selFormato.value||'png';
-    const graficos=['graficoPais','graficoMes','graficoFornecedor','graficoRisco'];
-    try{
-      if(formato==='pdf'){
-        const pngPromises = graficos.map(id=>gerarImagemPlotAsDataUrl(id,'png'));
-        const pngDataUrls = await Promise.all(pngPromises);
-        const {jsPDF} = window.jspdf;
-        const doc = new jsPDF('landscape','mm','a4');
-        const pdfW = doc.internal.pageSize.getWidth();
-        const pdfH = doc.internal.pageSize.getHeight();
+  [selAno, selFornecedor, selPais].forEach(sel => sel.addEventListener('change', () => atualizarTudo(obterFiltrados())));
+  btnLimpar.addEventListener('click', ()=>{ selAno.value=''; selFornecedor.value=''; selPais.value=''; atualizarTudo(baseDados); });
+  document.getElementById('btnIA').addEventListener('click', ()=> gerarAnaliseIA(obterFiltrados()));
 
-        for(let idx=0; idx<pngDataUrls.length; idx++){
-          const dataUrl = pngDataUrls[idx];
-          await new Promise(resolve=>{
-            const img = new Image();
-            img.src=dataUrl;
-            img.onload=()=>{
-              const scale=Math.min(pdfW/img.width,pdfH/img.height);
-              const w=img.width*scale;
-              const h=img.height*scale;
-              const x=(pdfW-w)/2;
-              const y=(pdfH-h)/2;
-              doc.addImage(dataUrl,'PNG',x,y,w,h);
-              if(idx<pngDataUrls.length-1) doc.addPage();
-              resolve();
-            };
-          });
-        }
-        const nome=`graficos_recall_${new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')}.pdf`;
-        doc.save(nome);
-      } else {
-        for(const id of graficos){
-          const dataUrl=await gerarImagemPlotAsDataUrl(id,formato);
-          const ext=formato==='jpeg'?'jpg':formato;
-          const nome=`${id}_${new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')}.${ext}`;
-          downloadDataUrl(dataUrl,nome);
-          await new Promise(r=>setTimeout(r,300));
-        }
-      }
-    } catch(err){console.error('Erro ao salvar gráficos:',err); alert('Erro ao salvar gráficos. Veja console para detalhes.');}
-  }
-
-  async function gerarImagemPlotAsDataUrl(divId,format){
-    const gd=document.getElementById(divId);
-    if(!gd) throw new Error('Gráfico não encontrado: '+divId);
-    const w=Math.max(gd.clientWidth,900);
-    const h=Math.max(gd.clientHeight,600);
-    return await Plotly.toImage(gd,{format:format,width:w,height:h,scale:1});
-  }
-
-  function downloadDataUrl(dataUrl,filename){
-    const a=document.createElement('a');
-    a.href=dataUrl;
-    a.download=filename;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-  }
-
-  function imprimirGraficos(){ window.print(); }
-
-  function ligarEventosAutoUpdate(){
-    [selAno,selFornecedor,selPais].forEach(el=>el.addEventListener('change',()=>{ atualizarVisualizacoes(obterFiltrados()); }));
-    btnLimpar.addEventListener('click',()=>{ selAno.value=''; selFornecedor.value=''; selPais.value=''; atualizarVisualizacoes(baseDados); });
-    btnSalvar.addEventListener('click',salvarGraficos);
-    btnImprimir.addEventListener('click',imprimirGraficos);
-  }
-
-  carregarDados();
+  window.addEventListener("DOMContentLoaded", carregarDados);
 
 })();
+
+// --- IA Gemini via servidor ---
+async function gerarAnaliseIA(dados){
+  const containerIA = document.getElementById('analise-ia');
+  containerIA.innerHTML = '<em>🧠 Gerando resumo inteligente...<span class="loader"></span></em>';
+
+  try {
+    // 1️⃣ Pega a chave do servidor
+    const chaveRes = await fetch("/api/key");
+    const { key: GEMINI_API_KEY } = await chaveRes.json();
+
+    const resumo = dados.slice(0,50).map(d=>({
+      fornecedor:d.fornecedor,
+      tipo_risco:d.tipo_risco,
+      pais:d.pais_origem,
+      afetados:d.total_afetado,
+      atendidos:d.total_atendido
+    }));
+
+    const prompt = `Gere um resumo analítico e interpretativo dos dados de recall abaixo, destacando:
+      - fornecedores com mais recalls
+      - tipos de risco mais frequentes
+      - países com maior incidência
+      - oportunidades de melhoria.
+      Seja conciso, objetivo e use português claro.
+      Dados:
+      ${JSON.stringify(resumo,null,2)}
+    `;
+
+    const resposta = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+      { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({contents:[{role:"user",parts:[{text:prompt}]}]}) }
+    );
+
+    const json = await resposta.json();
+    const texto = json.candidates?.[0]?.content?.parts?.[0]?.text || "Não foi possível gerar o resumo.";
+
+    containerIA.innerHTML = `<h3>🧠 Resumo Inteligente (Gemini)</h3><p>${texto.replace(/\n/g,'<br>')}</p>`;
+  } catch(err){
+    console.error(err);
+    containerIA.innerHTML = '<p style="color:red;">Erro ao gerar resumo inteligente com Gemini.</p>';
+  }
+}
 </script>
 </body>
 </html>
