@@ -231,7 +231,7 @@ Plotly.react('graficoFornecedor', [{
         line: { width: 1, color: '#1f3b72' }
     },
     text: topForn.map(v => v[1].afetados.toLocaleString()), // ✅ acessar 'afetados'
-    textposition: 'outside',
+    textposition: 'auto',
     textfont: { size: 14, color: '#1f3b72', family: 'Arial, sans-serif' },
     hoverinfo: 'x+y+text'
 }], {
@@ -320,3 +320,4 @@ document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obt
 </script>
 </body>
 </html>
+
