@@ -204,7 +204,7 @@ function gerarGraficos(dados){
   const meses = mesesOrdem.filter(m => porMes[m]!==undefined);
   const yAfetados = meses.map(m => porMes[m].afetados);
   const yAtendidos = meses.map(m => porMes[m].atendidos);
-  const perc = meses.map((m,i)=> yAfetados[i]>0?((yAtendidos[i]/yAfetados[i])*100).toFixed(1):0);
+
 
   Plotly.react('graficoMes',[
     { x:meses, y:yAfetados, type:'bar', name:'Afetados',
@@ -320,4 +320,5 @@ document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obt
 </script>
 </body>
 </html>
+
 
