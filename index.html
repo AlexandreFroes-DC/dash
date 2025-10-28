@@ -85,6 +85,11 @@ button { cursor:pointer; transition: all 0.3s ease; }
   <div id="graficoRisco"></div>
 </div>
 
+  
+<div id="analise-ia"><em>🧠 Aguardando análise inteligente...</em></div>
+  <button id="btnIA">🔄 Atualizar Análise IA</button>
+
+
 <div id="tabela-container">
   <h3>📋 Tabela Recall</h3>
   <div id="contador"></div>
@@ -99,9 +104,6 @@ button { cursor:pointer; transition: all 0.3s ease; }
     <tbody id="dadosTabela"></tbody>
   </table>
 </div>
-
-<div id="analise-ia"><em>🧠 Aguardando análise inteligente...</em></div>
-<button id="btnIA">🔄 Atualizar Análise IA</button>
 
 <script>
 (async function(){
@@ -328,7 +330,7 @@ async function gerarAnaliseIA(dados){
     .join(', ');
 
 
-  containerIA.innerHTML = `<h3>🧠 Resumo Inteligente (Executivo)</h3>
+  containerIA.innerHTML = `<h3>Resumo Inteligente</h3>
     <p><strong>Fornecedores com mais recalls:</strong> ${fornecedoresMais}</p>
     <p><strong>Tipos de risco mais frequentes:</strong> ${riscosMais}</p>
     <p><strong>Países com maior incidência:</strong> ${paisesMais}</p>
@@ -342,6 +344,7 @@ document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obt
 </script>
 </body>
 </html>
+
 
 
 
