@@ -200,22 +200,44 @@ function gerarGraficos(dados){
     text:yPais.map(v=>v.toLocaleString()), textposition:'auto', hoverinfo:'x+y'
   }],{title:'Total Afetado por País', margin:{t:40}}, config);
 
-  const porMes = agruparPorCampo(dados,'mes');
-  const meses = mesesOrdem.filter(m => porMes[m]!==undefined);
-  const yAfetados = meses.map(m => porMes[m].afetados);
-  const yAtendidos = meses.map(m => porMes[m].atendidos);
-  const perc = meses.map((m,i)=> yAfetados[i]>0?((yAtendidos[i]/yAfetados[i])*100).toFixed(1):0);
+ const porMes = agruparPorCampo(dados, 'mes');
+const meses = mesesOrdem.filter(m => porMes[m] !== undefined);
+const yAfetados = meses.map(m => porMes[m].afetados);
+const yAtendidos = meses.map(m => porMes[m].atendidos);
 
-  Plotly.react('graficoMes',[
-    { x:meses, y:yAfetados, type:'bar', name:'Afetados',
-      marker:{color:'rgba(31,59,114,0.8)', line:{width:1, color:'#0f2247'}},
-      text: perc.map(p=>p+'%'), textposition:'auto', hoverinfo:'x+y+text'
+Plotly.react('graficoMes', [
+  {
+    x: meses,
+    y: yAfetados,
+    type: 'bar',
+    name: 'Afetados',
+    marker: {
+      color: 'rgba(31,59,114,0.8)',
+      line: { width: 1, color: '#0f2247' }
     },
-    { x:meses, y:yAtendidos, type:'bar', name:'Atendidos',
-      marker:{color:'rgba(111,168,220,0.8)', line:{width:1, color:'#1f3b72'}},
-      text: perc.map(p=>p+'%'), textposition:'auto', hoverinfo:'x+y+text'
-    }
-  ],{title:'Afetados x Atendidos por Mês', barmode:'group', margin:{t:40}, transition:{duration:1200, easing:'cubic-in-out'}}, config);
+    text: yAfetados.map(v => v.toLocaleString()), // mostra o número real formatado
+    textposition: 'auto',
+    hoverinfo: 'x+y+text'
+  },
+  {
+    x: meses,
+    y: yAtendidos,
+    type: 'bar',
+    name: 'Atendidos',
+    marker: {
+      color: 'rgba(111,168,220,0.8)',
+      line: { width: 1, color: '#1f3b72' }
+    },
+    text: yAtendidos.map(v => v.toLocaleString()), // idem
+    textposition: 'auto',
+    hoverinfo: 'x+y+text'
+  }
+], {
+  title: 'Afetados x Atendidos por Mês',
+  barmode: 'group',
+  margin: { t: 40 },
+  transition: { duration: 1200, easing: 'cubic-in-out' }
+}, config);
 
  const porFornecedor = agruparPorCampo(dados,'fornecedor');
 const topForn = Object.entries(porFornecedor)
@@ -320,6 +342,7 @@ document.getElementById('btnIA').addEventListener('click',()=>gerarAnaliseIA(obt
 </script>
 </body>
 </html>
+
 
 
 
